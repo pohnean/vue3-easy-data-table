@@ -610,6 +610,9 @@ watch(pageItems, (value) => {
 }, { deep: true });
 
 watch(totalItems, (value) => {
+  if (!isServerSideMode.value) {
+    updatePage(1);
+  }
   emits('updateTotalItems', value);
 }, { deep: true });
 

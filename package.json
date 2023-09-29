@@ -6,10 +6,6 @@
   "version": "1.5.47",
   "types": "./types/main.d.ts",
   "license": "MIT",
-  "files": [
-    "dist",
-    "types"
-  ],
   "keywords": [
     "vue3",
     "data-table-component",
